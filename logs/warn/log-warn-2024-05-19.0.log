@@ -1,0 +1,136 @@
+2024-05-19 23:15:17.491 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+### The error may exist in com/project/customer/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,work_id,age,group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,password,salt,status,login_date,pwd_update_date,remark,create_by,create_time,update_by,update_time FROM user WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1]
+2024-05-19 23:16:12.501 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+### The error may exist in com/project/customer/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,work_id,age,group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,password,salt,status,login_date,pwd_update_date,remark,create_by,create_time,update_by,update_time FROM user WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1]
+2024-05-19 23:19:57.688 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+### The error may exist in com/project/customer/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,work_id,age,group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,password,salt,status,login_date,pwd_update_date,remark,create_by,create_time,update_by,update_time FROM user WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1]
+2024-05-19 23:19:59.506 [http-nio-8080-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+### The error may exist in com/project/customer/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,work_id,age,group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,password,salt,status,login_date,pwd_update_date,remark,create_by,create_time,update_by,update_time FROM user WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1]
+2024-05-19 23:24:10.047 [http-nio-8080-exec-11] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+### The error may exist in com/project/customer/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,work_id,age,group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,password,salt,status,login_date,pwd_update_date,remark,create_by,create_time,update_by,update_time FROM user WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1]
+2024-05-19 23:24:55.741 [http-nio-8080-exec-13] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+### The error may exist in com/project/customer/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,work_id,age,group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,password,salt,status,login_date,pwd_update_date,remark,create_by,create_time,update_by,update_time FROM user WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1]
+2024-05-19 23:25:14.941 [http-nio-8080-exec-15] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+### The error may exist in com/project/customer/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,work_id,age,group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,password,salt,status,login_date,pwd_update_date,remark,create_by,create_time,update_by,update_time FROM user WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1]
+2024-05-19 23:28:08.670 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+### The error may exist in com/project/customer/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,work_id,age,group_id,group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,password,salt,status,login_date,pwd_update_date,remark,create_by,create_time,update_by,update_time FROM user WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1]
+2024-05-19 23:28:08.670 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+### The error may exist in com/project/customer/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,work_id,age,group_id,group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,password,salt,status,login_date,pwd_update_date,remark,create_by,create_time,update_by,update_time FROM user WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1]
+2024-05-19 23:28:08.670 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+### The error may exist in com/project/customer/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,work_id,age,group_id,group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,password,salt,status,login_date,pwd_update_date,remark,create_by,create_time,update_by,update_time FROM user WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1]
+2024-05-19 23:29:33.907 [http-nio-8080-exec-11] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+### The error may exist in com/project/customer/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,work_id,age,group_id,group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,password,salt,status,login_date,pwd_update_date,remark,create_by,create_time,update_by,update_time FROM user WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1]
+2024-05-19 23:29:35.931 [http-nio-8080-exec-13] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+### The error may exist in com/project/customer/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,work_id,age,group_id,group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,password,salt,status,login_date,pwd_update_date,remark,create_by,create_time,update_by,update_time FROM user WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1]
+2024-05-19 23:29:42.508 [http-nio-8080-exec-15] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+### The error may exist in com/project/customer/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,work_id,age,group_id,group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,password,salt,status,login_date,pwd_update_date,remark,create_by,create_time,update_by,update_time FROM user WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1]
+2024-05-19 23:29:53.411 [http-nio-8080-exec-17] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+### The error may exist in com/project/customer/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,work_id,age,group_id,group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,password,salt,status,login_date,pwd_update_date,remark,create_by,create_time,update_by,update_time FROM user WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,group_state,user_name,login_account,user_type,email,tel,sex,avatar,passwor' at line 1]
+2024-05-19 23:30:13.080 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'group_name' in 'field list'
+### The error may exist in com/project/customer/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,work_id,age,group_id,group_name,group_state,user_name,login_account,user_type,email,tel,sex,avatar,password,salt,status,login_date,pwd_update_date,remark,create_by,create_time,update_by,update_time FROM user WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'group_name' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'group_name' in 'field list']
+2024-05-19 23:30:13.080 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'group_name' in 'field list'
+### The error may exist in com/project/customer/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,work_id,age,group_id,group_name,group_state,user_name,login_account,user_type,email,tel,sex,avatar,password,salt,status,login_date,pwd_update_date,remark,create_by,create_time,update_by,update_time FROM user WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'group_name' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'group_name' in 'field list']
+2024-05-19 23:30:13.080 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'group_name' in 'field list'
+### The error may exist in com/project/customer/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,work_id,age,group_id,group_name,group_state,user_name,login_account,user_type,email,tel,sex,avatar,password,salt,status,login_date,pwd_update_date,remark,create_by,create_time,update_by,update_time FROM user WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'group_name' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'group_name' in 'field list']

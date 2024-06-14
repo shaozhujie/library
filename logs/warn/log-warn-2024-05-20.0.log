@@ -1,0 +1,177 @@
+2024-05-20 11:24:13.679 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'customer.sys_urgent' doesn't exist
+### The error may exist in com/project/customer/mapper/SysUrgentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT COUNT(*) FROM sys_urgent
+### Cause: java.sql.SQLSyntaxErrorException: Table 'customer.sys_urgent' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'customer.sys_urgent' doesn't exist]
+2024-05-20 14:50:12.087 [http-nio-8080-exec-15] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Integer parameter 'type' is not present]
+2024-05-20 14:50:57.492 [http-nio-8080-exec-23] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Integer parameter 'type' is not present]
+2024-05-20 14:51:26.783 [http-nio-8080-exec-31] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Integer parameter 'type' is not present]
+2024-05-20 14:53:54.404 [http-nio-8080-exec-42] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Integer parameter 'type' is not present]
+2024-05-20 14:54:26.411 [http-nio-8080-exec-52] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Integer parameter 'type' is not present]
+2024-05-20 14:54:47.013 [http-nio-8080-exec-61] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Integer parameter 'type' is not present]
+2024-05-20 14:54:52.251 [http-nio-8080-exec-69] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Integer parameter 'type' is not present]
+2024-05-20 14:55:24.813 [http-nio-8080-exec-76] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Integer parameter 'type' is not present]
+2024-05-20 14:55:45.338 [http-nio-8080-exec-86] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Integer parameter 'type' is not present]
+2024-05-20 14:57:16.324 [http-nio-8080-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,
+user_id,
+
+
+
+create_by,
+create_time,
+update_by,
+update_time )  VALUES  ( '' at line 6
+### The error may involve com.project.library.mapper.SysTaskMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO sys_task  ( id, content, urgent_name, urgent, types, group, user_id,    create_by, create_time, update_by, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?,    ?, ?, ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,
+user_id,
+
+
+
+create_by,
+create_time,
+update_by,
+update_time )  VALUES  ( '' at line 6
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,
+user_id,
+
+
+
+create_by,
+create_time,
+update_by,
+update_time )  VALUES  ( '' at line 6]
+2024-05-20 20:36:11.338 [http-nio-8080-exec-4] WARN  c.b.m.e.plugins.inner.PaginationInnerInterceptor - optimize this sql to a count sql has exception, sql:"SELECT  id,evolution,cross,mutation,population  FROM sys_param", exception:
+net.sf.jsqlparser.parser.ParseException: Encountered unexpected token: "cross" "CROSS"
+    at line 1, column 22.
+
+Was expecting one of:
+
+    "!"
+    "("
+    "*"
+    "+"
+    "-"
+    ":"
+    "?"
+    "@"
+    "@@"
+    "ACTION"
+    "ANY"
+    "BYTE"
+    "CASCADE"
+    "CASE"
+    "CAST"
+    "CHANGE"
+    "CHAR"
+    "CHARACTER"
+    "COLUMN"
+    "COLUMNS"
+    "COMMENT"
+    "COMMIT"
+    "CREATE"
+    "CURRENT"
+    "CYCLE"
+    "DESCRIBE"
+    "DISABLE"
+    "DO"
+    "DOUBLE"
+    "DUPLICATE"
+    "ENABLE"
+    "END"
+    "EXTRACT"
+    "FALSE"
+    "FIRST"
+    "FN"
+    "FOLLOWING"
+    "GROUP"
+    "GROUP_CONCAT"
+    "IF"
+    "IIF"
+    "INDEX"
+    "INSERT"
+    "INTERVAL"
+    "ISNULL"
+    "KEY"
+    "LAST"
+    "LEFT"
+    "LIMIT"
+    "MATCH"
+    "MATERIALIZED"
+    "NEXTVAL"
+    "NO"
+    "NOLOCK"
+    "NOT"
+    "NULL"
+    "NULLS"
+    "OFFSET"
+    "ON"
+    "OPEN"
+    "OPTIMIZE"
+    "ORDER"
+    "OVER"
+    "PARTITION"
+    "PATH"
+    "PERCENT"
+    "PRECISION"
+    "PRIMARY"
+    "PRIOR"
+    "PROCEDURE"
+    "RANGE"
+    "READ"
+    "REPLACE"
+    "RIGHT"
+    "ROW"
+    "ROWS"
+    "SCHEMA"
+    "SEPARATOR"
+    "SESSION"
+    "SET"
+    "SIBLINGS"
+    "SIZE"
+    "START"
+    "TABLE"
+    "TEMP"
+    "TEMPORARY"
+    "TOP"
+    "TRUE"
+    "TRUNCATE"
+    "TYPE"
+    "UNSIGNED"
+    "VALIDATE"
+    "VALUE"
+    "VALUES"
+    "VIEW"
+    "XML"
+    "ZONE"
+    "{"
+    "{d"
+    "{t"
+    "{ts"
+    "~"
+    <K_DATETIMELITERAL>
+    <K_DATE_LITERAL>
+    <K_TIME_KEY_EXPR>
+    <S_CHAR_LITERAL>
+    <S_DOUBLE>
+    <S_HEX>
+    <S_IDENTIFIER>
+    <S_LONG>
+    <S_QUOTED_IDENTIFIER>
+
+2024-05-20 20:36:11.391 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cross,mutation,population  FROM sys_param) TOTAL' at line 1
+### The error may exist in com/project/customer/mapper/SysParamMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT COUNT(*) FROM (SELECT  id,evolution,cross,mutation,population  FROM sys_param) TOTAL
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cross,mutation,population  FROM sys_param) TOTAL' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cross,mutation,population  FROM sys_param) TOTAL' at line 1]
+2024-05-20 23:13:55.541 [http-nio-8080-exec-30] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.NullPointerException]
+2024-05-20 23:14:19.272 [http-nio-8080-exec-32] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.NullPointerException]
+2024-05-20 23:14:38.554 [http-nio-8080-exec-31] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.NullPointerException]

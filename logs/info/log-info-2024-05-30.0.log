@@ -1,0 +1,119 @@
+2024-05-30 08:32:36.024 [restartedMain] INFO  com.project.library.LibraryApplication - Starting LibraryApplication using Java 1.8.0_201 on LAPTOP-LDHLJA8N with PID 4244 (D:\bishe\library\library-serve\target\classes started by AA in D:\bishe\library\library-serve)
+2024-05-30 08:32:36.048 [restartedMain] INFO  com.project.library.LibraryApplication - The following profiles are active: dev
+2024-05-30 08:32:36.158 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-30 08:32:36.159 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-30 08:32:37.076 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-05-30 08:32:37.078 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-30 08:32:37.109 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-05-30 08:32:37.748 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-05-30 08:32:37.756 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-30 08:32:37.757 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-30 08:32:37.758 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-05-30 08:32:37.760 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2024-05-30 08:32:37.760 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-05-30 08:32:37.760 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-05-30 08:32:37.772 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2024-05-30 08:32:37.840 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-30 08:32:37.840 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1679 ms
+2024-05-30 08:32:38.285 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-05-30 08:32:38.917 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-05-30 08:32:40.115 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-05-30 08:32:40.346 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2024-05-30 08:32:40.380 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-05-30 08:32:40.411 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-05-30 08:32:40.433 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-30 08:32:40.445 [restartedMain] INFO  com.project.library.LibraryApplication - Started LibraryApplication in 5.089 seconds (JVM running for 7.06)
+2024-05-30 08:33:50.766 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-30 08:33:50.767 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-30 08:33:50.768 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-05-30 08:58:16.447 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2024-05-30 08:58:16.450 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-05-30 08:58:16.452 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-05-30 08:58:16.460 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-05-30 08:58:21.858 [restartedMain] INFO  com.project.library.LibraryApplication - Starting LibraryApplication using Java 1.8.0_201 on LAPTOP-LDHLJA8N with PID 11844 (D:\bishe\library\library-serve\target\classes started by AA in D:\bishe\library\library-serve)
+2024-05-30 08:58:21.861 [restartedMain] INFO  com.project.library.LibraryApplication - The following profiles are active: dev
+2024-05-30 08:58:21.920 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-30 08:58:21.921 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-30 08:58:22.474 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-05-30 08:58:22.475 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-30 08:58:22.503 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-05-30 08:58:23.033 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-05-30 08:58:23.040 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-30 08:58:23.041 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-30 08:58:23.041 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-05-30 08:58:23.043 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2024-05-30 08:58:23.043 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-05-30 08:58:23.043 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-05-30 08:58:23.045 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2024-05-30 08:58:23.100 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-30 08:58:23.101 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1179 ms
+2024-05-30 08:58:23.422 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-05-30 08:58:23.731 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-05-30 08:58:24.714 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-05-30 08:58:24.915 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2024-05-30 08:58:24.962 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-05-30 08:58:24.991 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-05-30 08:58:25.014 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-30 08:58:25.029 [restartedMain] INFO  com.project.library.LibraryApplication - Started LibraryApplication in 3.686 seconds (JVM running for 4.491)
+2024-05-30 08:59:06.512 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-30 08:59:06.513 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-30 08:59:06.514 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-05-30 09:01:13.456 [http-nio-8080-exec-9] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2024-05-30 09:03:30.363 [http-nio-8080-exec-72] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2024-05-30 09:06:43.381 [http-nio-8080-exec-23] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2024-05-30 09:08:24.848 [http-nio-8080-exec-34] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2024-05-30 09:10:06.185 [http-nio-8080-exec-40] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2024-05-30 09:11:22.130 [http-nio-8080-exec-46] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2024-05-30 09:23:08.393 [http-nio-8080-exec-79] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-05-30 09:23:08.405 [http-nio-8080-exec-79] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2024-05-30 09:24:04.672 [http-nio-8080-exec-95] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2024-05-30 09:24:16.116 [http-nio-8080-exec-14] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-05-30 09:24:16.123 [http-nio-8080-exec-14] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-05-30 09:26:33.075 [http-nio-8080-exec-92] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2024-05-30 09:27:10.232 [http-nio-8080-exec-8] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2024-05-30 09:27:47.355 [http-nio-8080-exec-10] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-05-30 09:27:47.361 [http-nio-8080-exec-10] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-05-30 09:27:48.526 [http-nio-8080-exec-10] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-05-30 09:27:48.528 [http-nio-8080-exec-10] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-05-30 09:28:54.098 [http-nio-8080-exec-78] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-05-30 09:28:54.101 [http-nio-8080-exec-78] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2024-05-30 09:29:33.458 [http-nio-8080-exec-99] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-05-30 09:29:45.684 [http-nio-8080-exec-17] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2024-05-30 09:30:06.946 [http-nio-8080-exec-10] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-05-30 09:30:06.948 [http-nio-8080-exec-10] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-05-30 09:30:20.102 [http-nio-8080-exec-20] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2024-05-30 09:30:26.322 [http-nio-8080-exec-46] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-05-30 09:30:26.324 [http-nio-8080-exec-46] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-05-30 09:30:26.329 [http-nio-8080-exec-46] INFO  com.project.library.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-05-30 17:26:23.361 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2024-05-30 17:26:23.370 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-05-30 17:26:23.373 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-05-30 17:26:23.383 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-05-30 19:49:45.676 [restartedMain] INFO  com.project.library.LibraryApplication - Starting LibraryApplication using Java 1.8.0_201 on LAPTOP-LDHLJA8N with PID 8864 (D:\bishe\library\library-serve\target\classes started by AA in D:\bishe\library\library-serve)
+2024-05-30 19:49:45.679 [restartedMain] INFO  com.project.library.LibraryApplication - The following profiles are active: dev
+2024-05-30 19:49:45.739 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-30 19:49:45.740 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-30 19:49:46.550 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-05-30 19:49:46.552 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-30 19:49:46.581 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2024-05-30 19:49:47.175 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-05-30 19:49:47.186 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-30 19:49:47.186 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-30 19:49:47.187 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-05-30 19:49:47.189 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2024-05-30 19:49:47.190 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-05-30 19:49:47.190 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-05-30 19:49:47.202 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2024-05-30 19:49:47.264 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-30 19:49:47.264 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1523 ms
+2024-05-30 19:49:47.675 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-05-30 19:49:48.061 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-05-30 19:49:49.188 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-05-30 19:49:49.412 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2024-05-30 19:49:49.443 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-05-30 19:49:49.476 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-05-30 19:49:49.507 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-30 19:49:49.521 [restartedMain] INFO  com.project.library.LibraryApplication - Started LibraryApplication in 4.371 seconds (JVM running for 6.423)
+2024-05-30 19:50:38.880 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-30 19:50:38.880 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-30 19:50:38.881 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
